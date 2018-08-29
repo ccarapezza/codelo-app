@@ -1,0 +1,8 @@
+{
+  "name": "codeloApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "4cd852b5"
+}
