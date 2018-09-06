@@ -15,6 +15,69 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+.main-content{
+	background-image: url('../assets/imgs/background2.jpg');
+	background-size: 150%;
+	background-position: center;
+	box-shadow: inset 0 0 20px 5px black;
+}
+
+.card{
+	background-color: transparent;
+	border-radius: 10px;
+}
+
+.item{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-on-bottom > .button-inner {
+  flex-direction: column;
+}
+
 .header-logo{
-	margin: 0 auto;
+    max-width: 100%;
+    border: 0;
+    vertical-align: middle;
+}
+
+.card-content, .card-header{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+}
+
+.day-duration-label{
+	text-align: center;
+    font-size: 10px;
+}
+
+.day-duration-value{
+	text-align: center;
+    font-size: 32px;
+}
+
+.sun-up-label, .sun-down-label{
+	width: 70px;
+	text-align: center;
+    font-size: 10px;
+    display: inline-block;
+}
+
+.sun-up-time, .sun-down-time{
+	text-align: center;
+    font-size: 24px;
+}
+
+ion-footer {
+	box-shadow: 0 11px 20px 15px black;
+}
+
+ion-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 90px 1px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }

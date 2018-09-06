@@ -1,20 +1,58 @@
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>
-      <img class="header-logo" alt="logo" height="40" src="assets/imgs/logo.png">
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+<ion-content class="main-content" padding>
+  <img src="assets/imgs/main-logo2.png">
+  <ion-card>
+    <ion-list>
+      <button ion-item>
+        <ion-icon name="calendar" item-start></ion-icon>
+        Eventos
+      </button>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+      <button ion-item>
+        <ion-icon name="partly-sunny" item-start></ion-icon>
+        Estación meteorológica
+      </button>
+
+      <button ion-item>
+        <ion-icon name="git-network" item-start></ion-icon>
+        Buscador de Genéticas
+      </button>
+
+      <button ion-item>
+        <ion-icon name="options" item-start></ion-icon>
+        Planificador de cultivo
+      </button>
+    </ion-list>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <div class="day-duration-label">
+        DURACIÓN DEL DÍA
+        <div class="day-duration-value">11:23</div>
+      </div>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="sun-up-label">
+        <ion-icon name="arrow-round-up" item-start></ion-icon><ion-icon name="ios-sunny"> SALIDA</ion-icon>
+        <div class="sun-up-time">07:36</div>
+      </div>
+
+      <div class="sun-down-label">
+        <ion-icon name="arrow-round-down" item-start></ion-icon><ion-icon name="ios-sunny-outline" item-start> PUESTA</ion-icon>
+        <div class="sun-down-time">18:54</div>
+      </div>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>
+      <ion-buttons>
+        <button ion-button icon-only>
+          <ion-icon name="person"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>
